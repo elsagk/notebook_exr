@@ -119,3 +119,7 @@ my_nested = [
 print(my_nested)
 print(my_nested[0]["name"])
 print(my_nested[1])
+print(my_nested[1]['email'])
+print(my_nested[2]["address"])
+print(my_nested[2]["address"]["city"])
+print(my_nested[1]["phoneNumber"][0])
